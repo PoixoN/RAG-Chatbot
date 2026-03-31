@@ -1,0 +1,22 @@
+
+--- test run 2026-03-31T22:50:13Z ---
+Question: What are the production 'Do's' for RAG?
+Answer:
+The context from course materials explains that AI can be made reliable, production-ready and business-impactful by using multiple models (e.g., vector databases, machine learning techniques) to process large volumes of data. It notes that the best practice is embedding and automated self-correction, while the alternative is hybrid searcch.
+
+The foundation patterns include: 1) embedding, which combines multiple search engines, 2) agentic RAG (Advanced RAG) pattern, wherein diverse RAG models are used to provide multi-modal context for document retrieval and generation; and 3) multi-modal RAG, which employs hybrid sea-based reasoning across documents.
+
+The foundation patterns include: 1) use of hybrid searcch (vector-only seairc search, multi modal search engines); 2) filter based on metadata (security-critical data freshness) during retrieval; and 3) retrospective evaluation based on embedding models.
+
+The TC (test cases) includes rewriting a little bit to adjust the project and generation of test strategies; and testing reports (Q&A) are manually tested themselves, using manual testing itself as an example. Manual testing is done for corner cases, while business-specific corner cases reporting/validation need to be rewritten, and risk assessment.
+
+Useful items include TC rework and Q&A generation; test strategy rewriting; and production testing plan and recommendations based on the project timeline and scope.
+
+Question: What is the difference between standard retrieval and the ColPali approach?
+Answer:
+The key difference between standard retrieval and the ColPalie approach is that the former is focused solely on searching for specific information related to a particular document, while the latter involves seeking out relevant documents in a larger context. This can help achieve better results when searching for more general terms or concepts, such as "Python" or "Industry Q3 benchmarks." The ColPalie approach is a specialized solution that analyzes retrieval data from multiple sources to provide a complete picture of the most relevant and up-to-date information related to a particular document or set of documents.
+
+Question: Why is hybrid search better than vector-only search?
+Answer:
+Hybrid seaRCk (vector + BM25) offers better performance in terms of retrieval quality and reduces costs compared to vector-only seaRCk. This hybrid approach combines the advantages of both methods, providing a more efficient and reliable solution for AI-driven data retrieval and indexing. Vector-only seaRCk is less cost-effective because it focuses on low-cost vectorial search algorithms rather than general purpose vectors. Overall, hybrid seaRCk provides a versatile and scalable approach to achieving optimal AI performance in production environments.
+
